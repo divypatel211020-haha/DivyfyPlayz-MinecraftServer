@@ -1,0 +1,16 @@
+bedrock:
+  address: 0.0.0.0
+  port: 19132
+  motd1: "DivyfyMc Crossplay Server"
+  motd2: "Java & Bedrock"
+  server-name: "DivyfyMc"
+  clone-remote-port: true
+
+remote:
+  address: auto
+  port: 25565
+  offline-mode: false
+
+advanced:
+  cache-images: true
+  compression-level: 6
