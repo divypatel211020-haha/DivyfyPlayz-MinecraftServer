@@ -1,0 +1,4 @@
+# Floodgate configuration
+# This allows Bedrock players to connect to Java servers using Xbox authentication
+username-prefix: "."
+send-floodgate-data: true
