@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  mcserver:
+    image: eclipse-temurin:17-jdk
+    container_name: crossplay_minecraft
+    restart: unless-stopped
+    working_dir: /data
+    ports:
+      - "25565:25565" # Java Edition Port
+      - "19132:19132/udp" # Bedrock Edition Port (Geyser)
+    stdin_open: true
+    tty: true
+    command: java -Xms1G -Xmx2G -jar paper.jar nogui
